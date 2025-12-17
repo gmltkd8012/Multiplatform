@@ -1,15 +1,33 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Local configuration
 local.properties
+
+# Kotlin
+*.kotlin_module
+
+# Android
+*.apk
+*.ap_
+*.dex
+
+# iOS
+iosApp/iosApp.xcodeproj/xcuserdata/
+iosApp/iosApp.xcworkspace/xcuserdata/
+iosApp/Pods/
+iosApp/.build/
+*.xcuserstate
+
+# Kotlin/Native
+*.klib
+
+# Compose
+composeApp/build/
