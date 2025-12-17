@@ -1,3 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.idea/ChatHistory_schema_v3.xml
+.idea/deploymentTargetSelector.xml
+.idea/gradle.xml
+.idea/material_theme_project_new.xml
+.idea/misc.xml
